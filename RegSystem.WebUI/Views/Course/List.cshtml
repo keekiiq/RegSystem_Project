@@ -1,0 +1,13 @@
+﻿@using RegSystem.Domain.Entities
+@model IEnumerable<Course>
+@{
+    ViewBag.Title = "Courses";
+}
+@foreach (var p in Model)
+{
+<div>
+    <h3>@p.CourseID</h3>
+    <h3>@p.Name</h3>
+    @p.Description
+</div>      
+}
