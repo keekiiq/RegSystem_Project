@@ -7,6 +7,8 @@ using Ninject;
 using RegSystem.Domain.Entities;
 using RegSystem.Domain.Abstract;
 using RegSystem.Domain.Concrete;
+using RegSystem.WebUI.Infrastructure.Abstract;
+using RegSystem.WebUI.Infrastructure.Concrete;
 
 namespace RegSystem.WebUI.Infrastructure
 {
@@ -26,6 +28,10 @@ namespace RegSystem.WebUI.Infrastructure
         {
             return kernel.GetAll(serviceType);
         }
-        private void AddBindings() => kernel.Bind<ICourseRepository>().To<EFCourseRepository>();
+        private void AddBindings()
+        {
+            kernel.Bind<ICourseRepository>().To<EFCourseRepository>();
+            kernel.Bind<IAuthProvider>().To<FormsAuthProvider>();
+        }
     }
 }
