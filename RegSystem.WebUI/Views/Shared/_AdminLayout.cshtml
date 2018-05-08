@@ -1,4 +1,4 @@
-﻿@{
+@{
     Layout = null;
 }
 <!DOCTYPE html>
@@ -14,13 +14,16 @@
     <title></title>
 </head>
 <body>
-    <div>
+    <div class="navbar navbar-inverse" role="navigation">
+        <a class="navbar-brand" href="#">REG System</a>
+    </div>
+    <div class="container">
         @if (TempData["message"] != null)
         {
             <div class="alert alert-success">@TempData["message"]</div>
         }
+            <div class="container-fluid">@RenderBody()</div>
 
-        @RenderBody()
     </div>
 </body>
-</html>
+</html
