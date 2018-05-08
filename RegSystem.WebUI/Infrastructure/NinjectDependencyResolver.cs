@@ -6,6 +6,7 @@ using Moq;
 using Ninject;
 using RegSystem.Domain.Entities;
 using RegSystem.Domain.Abstract;
+using RegSystem.Domain.Concrete;
 
 namespace RegSystem.WebUI.Infrastructure
 {
@@ -25,15 +26,6 @@ namespace RegSystem.WebUI.Infrastructure
         {
             return kernel.GetAll(serviceType);
         }
-        private void AddBindings()
-        {
-            Mock<ICourseRepository> mock = new Mock<ICourseRepository>();
-            mock.Setup(m => m.Courses).Returns(new List<Course> {
-                new Course { CourseID="953100", Name="Intro for SE 1",Description="Test",Section="701",Time="12.00-13.00",Day="Mon-Tue"},
-                new Course { CourseID="953101", Name="Intro for SE 2",Description="Test",Section="701",Time="12.00-13.00",Day="Mon-Tue"},
-                new Course { CourseID="953102", Name="Intro for SE 3",Description="Test",Section="701",Time="12.00-13.00",Day="Mon-Tue"}
-            });
-            kernel.Bind<ICourseRepository>().ToConstant(mock.Object);
-        }
+        private void AddBindings() => kernel.Bind<ICourseRepository>().To<EFCourseRepository>();
     }
 }
