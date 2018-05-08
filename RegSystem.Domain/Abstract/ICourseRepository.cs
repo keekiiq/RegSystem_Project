@@ -7,5 +7,7 @@ namespace RegSystem.Domain.Abstract
     {
         IEnumerable<Course> Courses { get; }
         void SaveProduct(Course course);
+
+        Course DeleteCourse(int courseID);
     }
 }

@@ -33,5 +33,15 @@ namespace RegSystem.Domain.Concrete
             }
             context.SaveChanges();
         }
+        public Course DeleteCourse(int courseID)
+        {
+            Course dbEntry = context.Courses.Find(courseID);
+            if (dbEntry != null)
+            {
+                context.Courses.Remove(dbEntry);
+                context.SaveChanges();
+            }
+            return dbEntry;
+        }
     }
 }

@@ -5,6 +5,7 @@ using RegSystem.Domain.Entities;
 
 namespace RegSystem.WebUI.Controllers
 {
+    [Authorize]
     public class AdminController : Controller
     {
         private ICourseRepository repository;
@@ -42,6 +43,18 @@ namespace RegSystem.WebUI.Controllers
         public ViewResult Create()
         {
             return View("Edit", new Course());
+        }
+
+        [HttpPost]
+        public ActionResult Delete(int courseId)
+        {
+            Course deletedCourse = repository.DeleteCourse(courseId);
+            if (deletedCourse != null)
+            {
+                TempData["message"] = string.Format("{0} was deleted",
+                    deletedCourse.Name);
+            }
+            return RedirectToAction("Index");
         }
 
     }
