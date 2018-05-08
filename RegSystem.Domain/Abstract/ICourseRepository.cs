@@ -6,7 +6,7 @@ namespace RegSystem.Domain.Abstract
     public interface ICourseRepository
     {
         IEnumerable<Course> Courses { get; }
-        void SaveProduct(Course course);
+        void SaveCourse(Course course);
 
         Course DeleteCourse(int courseID);
     }

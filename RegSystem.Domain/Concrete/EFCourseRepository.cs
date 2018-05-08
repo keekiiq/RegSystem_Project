@@ -12,7 +12,7 @@ namespace RegSystem.Domain.Concrete
             get { return context.Courses; }
         }
 
-        public void SaveProduct(Course course)
+        public void SaveCourse(Course course)
         {
             if (course.CourseID == 0)
             {

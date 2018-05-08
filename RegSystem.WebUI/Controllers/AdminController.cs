@@ -30,7 +30,7 @@ namespace RegSystem.WebUI.Controllers
         {
             if (ModelState.IsValid)
             {
-                repository.SaveProduct(course);
+                repository.SaveCourse(course);
                 TempData["message"] = string.Format("{0} has been saved", course.Name);
                 return RedirectToAction("Index");
             }
