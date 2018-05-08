@@ -39,5 +39,10 @@ namespace RegSystem.WebUI.Controllers
             }
         }
 
+        public ViewResult Create()
+        {
+            return View("Edit", new Course());
+        }
+
     }
 }
