@@ -17,7 +17,30 @@ namespace RegSystem.UnitTests
     public class UnitTest1
     {
 
-            [TestMethod]
+        [TestMethod]
+        public void Index_Contains_All_Courses()
+        {
+            // Arrange - create the mock repository
+            Mock<ICourseRepository> mock = new Mock<ICourseRepository>();
+            mock.Setup(m => m.Courses).Returns(new Course[] {
+           new Course {CourseID=1,Name="Test1",Description="Test1",Section="3",Credit="1",Time="12.00",Day="Tue"},
+           new Course {CourseID=2,Name="Test2",Description="Test2",Section="3",Credit="1",Time="12.00",Day="Tue"},
+           new Course {CourseID=3,Name="Test3",Description="Test3",Section="3",Credit="1",Time="12.00",Day="Tue"}
+});
+            // Arrange - create a controller
+            AdminController target = new AdminController(mock.Object);
+            // Action
+            Course[] result = ((IEnumerable<Course>)target.Index().
+                ViewData.Model).ToArray();
+            // Assert
+            Assert.AreEqual(result.Length, 3);
+            Assert.AreEqual("Test1", result[0].Name);
+            Assert.AreEqual("Test2", result[1].Name);
+            Assert.AreEqual("Test3", result[2].Name);
+        }
+
+
+[TestMethod]
             public void Can_Login_With_Valid_Credentials()
             {
 
