@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Validate_Time</name>
+   <tag></tag>
+   <elementGuidId>88eccc9d-f675-43b7-a7d5-a7b35d378d87</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html/body/div[@class='container']/div[@class='container-fluid']/div[@class='panel']/form/div[@class='panel-body']/div[@class='form-group'][5]/span[@class='field-validation-error']</value>
+   </webElementProperties>
+</WebElementEntity>

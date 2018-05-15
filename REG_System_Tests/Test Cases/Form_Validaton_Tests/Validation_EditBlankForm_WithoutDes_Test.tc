@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Validation_EditBlankForm_WithoutDes_Test</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>825e7008-ee4f-472c-b3e6-d3bf5fb79655</testCaseGuid>
+</TestCaseEntity>

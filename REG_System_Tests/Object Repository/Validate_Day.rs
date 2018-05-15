@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Validate_Day</name>
+   <tag></tag>
+   <elementGuidId>5dd1ce64-b833-4346-9752-1375545db714</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html/body/div[@class='container']/div[@class='container-fluid']/div[@class='panel']/form/div[@class='panel-body']/div[@class='form-group'][6]/span[@class='field-validation-error']</value>
+   </webElementProperties>
+</WebElementEntity>

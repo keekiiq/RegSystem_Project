@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit_Course</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e11c5571-9c4a-4f11-8c99-f9870f6f0dd3</testCaseGuid>
+   <variable>
+      <defaultValue>'Intro SE'</defaultValue>
+      <description></description>
+      <id>45c1d180-7c11-4871-9f33-ed66a78227fa</id>
+      <masked>false</masked>
+      <name>courseName</name>
+   </variable>
+   <variable>
+      <defaultValue>' has been saved'</defaultValue>
+      <description></description>
+      <id>eef94c6e-550a-4133-b633-c96137beb66c</id>
+      <masked>false</masked>
+      <name>successMessage</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Form_Validation_Tests" time="71" tests="4" failures="0" errors="0">
+   <testsuite name="Form_Validation_Tests" tests="4" failures="0" errors="0" time="71" timestamp="2018-05-15 01:26:01" hostname="tungas - 10.211.55.4" id="Test Suites/Form_Validation_Tests">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\tungas\\Katalon Studio\\REG_System_Tests\\Reports\\Form_Validation_Tests\\20180515_012555"/>
+         <property name="logFiles" value="C:\\Users\\tungas\\Katalon Studio\\REG_System_Tests\\Reports\\Form_Validation_Tests\\20180515_012555\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="tungas - 10.211.55.4"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="Chrome 66.0.3359.139"/>
+         <property name="hostAddress" value="10.211.55.4"/>
+         <property name="sessionId" value="04da54520e6ea90d83a1eb10f331a56e"/>
+         <property name="seleniumVersion" value="unknown"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Form_Validaton_Tests/Validation_AddBlankForm_Test" classname="Test Cases/Form_Validaton_Tests/Validation_AddBlankForm_Test" status="PASSED">
+         <system-out><![CDATA[2018-05-15 01:26:02 - [TEST_CASE][PASSED] - Test Cases/Form_Validaton_Tests/Validation_AddBlankForm_Test: Test Cases/Form_Validaton_Tests/Validation_AddBlankForm_Test
+
+2018-05-15 01:26:03 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-15 01:26:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-15 01:26:09 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:60564/Account/Login?ReturnUrl=%2fAdmin%2fIndex' successfully
+
+2018-05-15 01:26:11 - [MESSAGE][PASSED] - Navigate to 'http://localhost:60564/Account/Login?ReturnUrl=%2fAdmin%2fIndex' successfully
+
+2018-05-15 01:26:11 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Page_ (6)/input_UserName'
+
+2018-05-15 01:26:12 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_ (6)/input_UserName'
+
+2018-05-15 01:26:12 - [TEST_STEP][PASSED] - setText: Text 'secret' is set on object 'Object Repository/Page_ (6)/input_Password'
+
+2018-05-15 01:26:13 - [MESSAGE][PASSED] - Text 'secret' is set on object 'Object Repository/Page_ (6)/input_Password'
+
+2018-05-15 01:26:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ (6)/input_btn btn-primary' is clicked on
+
+2018-05-15 01:26:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ (6)/input_btn btn-primary' is clicked on
+
+2018-05-15 01:26:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ (6)/a_Add a new course' is clicked on
+
+2018-05-15 01:26:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ (6)/a_Add a new course' is clicked on
+
+2018-05-15 01:26:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ (6)/input_btn btn-primary' is clicked on
+
+2018-05-15 01:26:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ (6)/input_btn btn-primary' is clicked on
+
+2018-05-15 01:26:18 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Validate_Name' are matched.
+
+2018-05-15 01:26:18 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Validate_Name' are matched.
+
+2018-05-15 01:26:18 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Validate_Des' are matched.
+
+2018-05-15 01:26:19 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Validate_Des' are matched.
+
+2018-05-15 01:26:19 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Validate_Section' are matched.
+
+2018-05-15 01:26:19 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Validate_Section' are matched.
+
+2018-05-15 01:26:19 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Validate_Credit' are matched.
+
+2018-05-15 01:26:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Validate_Credit' are matched.
+
+2018-05-15 01:26:20 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Validate_Time' are matched.
+
+2018-05-15 01:26:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Validate_Time' are matched.
+
+2018-05-15 01:26:20 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Validate_Day' are matched.
+
+2018-05-15 01:26:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Validate_Day' are matched.
+
+2018-05-15 01:26:20 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-15 01:26:22 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Form_Validaton_Tests/Validation_AddBlankForm_WithoutDes_Test" classname="Test Cases/Form_Validaton_Tests/Validation_AddBlankForm_WithoutDes_Test" status="PASSED">
+         <system-out><![CDATA[2018-05-15 01:26:22 - [TEST_CASE][PASSED] - Test Cases/Form_Validaton_Tests/Validation_AddBlankForm_WithoutDes_Test: Test Cases/Form_Validaton_Tests/Validation_AddBlankForm_WithoutDes_Test
+
+2018-05-15 01:26:23 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-15 01:26:26 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-15 01:26:26 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:60564/Account/Login?ReturnUrl=%2fAdmin%2fIndex' successfully
+
+2018-05-15 01:26:27 - [MESSAGE][PASSED] - Navigate to 'http://localhost:60564/Account/Login?ReturnUrl=%2fAdmin%2fIndex' successfully
+
+2018-05-15 01:26:27 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Page_ (6)/input_UserName'
+
+2018-05-15 01:26:28 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_ (6)/input_UserName'
+
+2018-05-15 01:26:28 - [TEST_STEP][PASSED] - setText: Text 'secret' is set on object 'Object Repository/Page_ (6)/input_Password'
+
+2018-05-15 01:26:28 - [MESSAGE][PASSED] - Text 'secret' is set on object 'Object Repository/Page_ (6)/input_Password'
+
+2018-05-15 01:26:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ (6)/input_btn btn-primary' is clicked on
+
+2018-05-15 01:26:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ (6)/input_btn btn-primary' is clicked on
+
+2018-05-15 01:26:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ (6)/a_Add a new course' is clicked on
+
+2018-05-15 01:26:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ (6)/a_Add a new course' is clicked on
+
+2018-05-15 01:26:31 - [TEST_STEP][PASSED] - setText: Text 'Test1' is set on object 'Object Repository/Page_ (1)/input_Name'
+
+2018-05-15 01:26:32 - [MESSAGE][PASSED] - Text 'Test1' is set on object 'Object Repository/Page_ (1)/input_Name'
+
+2018-05-15 01:26:32 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Page_ (1)/textarea_Description'
+
+2018-05-15 01:26:33 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_ (1)/textarea_Description'
+
+2018-05-15 01:26:33 - [TEST_STEP][PASSED] - setText: Text '701' is set on object 'Object Repository/Page_ (1)/input_Section'
+
+2018-05-15 01:26:34 - [MESSAGE][PASSED] - Text '701' is set on object 'Object Repository/Page_ (1)/input_Section'
+
+2018-05-15 01:26:34 - [TEST_STEP][PASSED] - setText: Text '3' is set on object 'Object Repository/Page_ (1)/input_Credit'
+
+2018-05-15 01:26:35 - [MESSAGE][PASSED] - Text '3' is set on object 'Object Repository/Page_ (1)/input_Credit'
+
+2018-05-15 01:26:35 - [TEST_STEP][PASSED] - setText: Text '12.00' is set on object 'Object Repository/Page_ (1)/input_Time'
+
+2018-05-15 01:26:35 - [MESSAGE][PASSED] - Text '12.00' is set on object 'Object Repository/Page_ (1)/input_Time'
+
+2018-05-15 01:26:35 - [TEST_STEP][PASSED] - setText: Text 'Tue' is set on object 'Object Repository/Page_ (1)/input_Day'
+
+2018-05-15 01:26:36 - [MESSAGE][PASSED] - Text 'Tue' is set on object 'Object Repository/Page_ (1)/input_Day'
+
+2018-05-15 01:26:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ (6)/input_btn btn-primary' is clicked on
+
+2018-05-15 01:26:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ (6)/input_btn btn-primary' is clicked on
+
+2018-05-15 01:26:37 - [TEST_STEP][PASSED] - verifyElementNotPresent: Web element with id: 'Object Repository/Validate_Name' located by 'By.xpath: /html/body/div[@class='container']/div[@class='container-fluid']/div[@class='panel']/form/div[@class='panel-body']/div[@class='form-group'][1]/span[@class='field-validation-error']' is not present after '30' second(s)
+
+2018-05-15 01:26:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-15 01:26:37 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Validate_Name' located by 'By.xpath: /html/body/div[@class='container']/div[@class='container-fluid']/div[@class='panel']/form/div[@class='panel-body']/div[@class='form-group'][1]/span[@class='field-validation-error']' is not present after '30' second(s)
+
+2018-05-15 01:26:37 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Validate_Des' are matched.
+
+2018-05-15 01:26:37 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Validate_Des' are matched.
+
+2018-05-15 01:26:37 - [TEST_STEP][PASSED] - verifyElementNotPresent: Web element with id: 'Object Repository/Validate_Section' located by 'By.xpath: /html/body/div[@class='container']/div[@class='container-fluid']/div[@class='panel']/form/div[@class='panel-body']/div[@class='form-group'][3]/span[@class='field-validation-error']' is not present after '30' second(s)
+
+2018-05-15 01:26:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-15 01:26:37 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Validate_Section' located by 'By.xpath: /html/body/div[@class='container']/div[@class='container-fluid']/div[@class='panel']/form/div[@class='panel-body']/div[@class='form-group'][3]/span[@class='field-validation-error']' is not present after '30' second(s)
+
+2018-05-15 01:26:37 - [TEST_STEP][PASSED] - verifyElementNotPresent: Web element with id: 'Object Repository/Validate_Credit' located by 'By.xpath: /html/body/div[@class='container']/div[@class='container-fluid']/div[@class='panel']/form/div[@class='panel-body']/div[@class='form-group'][4]/span[@class='field-validation-error']' is not present after '30' second(s)
+
+2018-05-15 01:26:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-15 01:26:37 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Validate_Credit' located by 'By.xpath: /html/body/div[@class='container']/div[@class='container-fluid']/div[@class='panel']/form/div[@class='panel-body']/div[@class='form-group'][4]/span[@class='field-validation-error']' is not present after '30' second(s)
+
+2018-05-15 01:26:37 - [TEST_STEP][PASSED] - verifyElementNotPresent: Web element with id: 'Object Repository/Validate_Time' located by 'By.xpath: /html/body/div[@class='container']/div[@class='container-fluid']/div[@class='panel']/form/div[@class='panel-body']/div[@class='form-group'][5]/span[@class='field-validation-error']' is not present after '30' second(s)
+
+2018-05-15 01:26:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-15 01:26:37 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Validate_Time' located by 'By.xpath: /html/body/div[@class='container']/div[@class='container-fluid']/div[@class='panel']/form/div[@class='panel-body']/div[@class='form-group'][5]/span[@class='field-validation-error']' is not present after '30' second(s)
+
+2018-05-15 01:26:37 - [TEST_STEP][PASSED] - verifyElementNotPresent: Web element with id: 'Object Repository/Validate_Day' located by 'By.xpath: /html/body/div[@class='container']/div[@class='container-fluid']/div[@class='panel']/form/div[@class='panel-body']/div[@class='form-group'][6]/span[@class='field-validation-error']' is not present after '30' second(s)
+
+2018-05-15 01:26:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-15 01:26:37 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Validate_Day' located by 'By.xpath: /html/body/div[@class='container']/div[@class='container-fluid']/div[@class='panel']/form/div[@class='panel-body']/div[@class='form-group'][6]/span[@class='field-validation-error']' is not present after '30' second(s)
+
+2018-05-15 01:26:37 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-15 01:26:39 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Form_Validaton_Tests/Validation_EditBlankForm_Test" classname="Test Cases/Form_Validaton_Tests/Validation_EditBlankForm_Test" status="PASSED">
+         <system-out><![CDATA[2018-05-15 01:26:39 - [TEST_CASE][PASSED] - Test Cases/Form_Validaton_Tests/Validation_EditBlankForm_Test: Test Cases/Form_Validaton_Tests/Validation_EditBlankForm_Test
+
+2018-05-15 01:26:40 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-15 01:26:43 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-15 01:26:43 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:60564/Account/Login?ReturnUrl=%2fAdmin%2fIndex' successfully
+
+2018-05-15 01:26:44 - [MESSAGE][PASSED] - Navigate to 'http://localhost:60564/Account/Login?ReturnUrl=%2fAdmin%2fIndex' successfully
+
+2018-05-15 01:26:44 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Page_ (3)/input_UserName'
+
+2018-05-15 01:26:45 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_ (3)/input_UserName'
+
+2018-05-15 01:26:45 - [TEST_STEP][PASSED] - setText: Text 'secret' is set on object 'Object Repository/Page_ (3)/input_Password'
+
+2018-05-15 01:26:45 - [MESSAGE][PASSED] - Text 'secret' is set on object 'Object Repository/Page_ (3)/input_Password'
+
+2018-05-15 01:26:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ (3)/input_btn btn-primary' is clicked on
+
+2018-05-15 01:26:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ (3)/input_btn btn-primary' is clicked on
+
+2018-05-15 01:26:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Edit' is clicked on
+
+2018-05-15 01:26:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit' is clicked on
+
+2018-05-15 01:26:49 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Page_ (1)/input_Name'
+
+2018-05-15 01:26:50 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_ (1)/input_Name'
+
+2018-05-15 01:26:50 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Page_ (1)/textarea_Description'
+
+2018-05-15 01:26:50 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_ (1)/textarea_Description'
+
+2018-05-15 01:26:50 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Page_ (1)/input_Section'
+
+2018-05-15 01:26:51 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_ (1)/input_Section'
+
+2018-05-15 01:26:51 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Page_ (1)/input_Credit'
+
+2018-05-15 01:26:52 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_ (1)/input_Credit'
+
+2018-05-15 01:26:52 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Page_ (1)/input_Time'
+
+2018-05-15 01:26:53 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_ (1)/input_Time'
+
+2018-05-15 01:26:53 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Page_ (1)/input_Day'
+
+2018-05-15 01:26:54 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_ (1)/input_Day'
+
+2018-05-15 01:26:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ (6)/input_btn btn-primary' is clicked on
+
+2018-05-15 01:26:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ (6)/input_btn btn-primary' is clicked on
+
+2018-05-15 01:26:55 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Validate_Name' are matched.
+
+2018-05-15 01:26:55 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Validate_Name' are matched.
+
+2018-05-15 01:26:55 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Validate_Des' are matched.
+
+2018-05-15 01:26:55 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Validate_Des' are matched.
+
+2018-05-15 01:26:55 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Validate_Section' are matched.
+
+2018-05-15 01:26:56 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Validate_Section' are matched.
+
+2018-05-15 01:26:56 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Validate_Credit' are matched.
+
+2018-05-15 01:26:56 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Validate_Credit' are matched.
+
+2018-05-15 01:26:56 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Validate_Time' are matched.
+
+2018-05-15 01:26:56 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Validate_Time' are matched.
+
+2018-05-15 01:26:56 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Validate_Day' are matched.
+
+2018-05-15 01:26:56 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Validate_Day' are matched.
+
+2018-05-15 01:26:56 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-15 01:26:58 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Form_Validaton_Tests/Validation_EditBlankForm_WithoutDes_Test" classname="Test Cases/Form_Validaton_Tests/Validation_EditBlankForm_WithoutDes_Test" status="PASSED">
+         <system-out><![CDATA[2018-05-15 01:26:58 - [TEST_CASE][PASSED] - Test Cases/Form_Validaton_Tests/Validation_EditBlankForm_WithoutDes_Test: Test Cases/Form_Validaton_Tests/Validation_EditBlankForm_WithoutDes_Test
+
+2018-05-15 01:26:59 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-15 01:27:02 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-15 01:27:02 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:60564/Account/Login?ReturnUrl=%2fAdmin%2fIndex' successfully
+
+2018-05-15 01:27:02 - [MESSAGE][PASSED] - Navigate to 'http://localhost:60564/Account/Login?ReturnUrl=%2fAdmin%2fIndex' successfully
+
+2018-05-15 01:27:02 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Page_ (3)/input_UserName'
+
+2018-05-15 01:27:03 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_ (3)/input_UserName'
+
+2018-05-15 01:27:03 - [TEST_STEP][PASSED] - setText: Text 'secret' is set on object 'Object Repository/Page_ (3)/input_Password'
+
+2018-05-15 01:27:03 - [MESSAGE][PASSED] - Text 'secret' is set on object 'Object Repository/Page_ (3)/input_Password'
+
+2018-05-15 01:27:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ (3)/input_btn btn-primary' is clicked on
+
+2018-05-15 01:27:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ (3)/input_btn btn-primary' is clicked on
+
+2018-05-15 01:27:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Edit' is clicked on
+
+2018-05-15 01:27:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit' is clicked on
+
+2018-05-15 01:27:06 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Page_ (1)/textarea_Description'
+
+2018-05-15 01:27:07 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_ (1)/textarea_Description'
+
+2018-05-15 01:27:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ (6)/input_btn btn-primary' is clicked on
+
+2018-05-15 01:27:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ (6)/input_btn btn-primary' is clicked on
+
+2018-05-15 01:27:08 - [TEST_STEP][PASSED] - verifyElementNotPresent: Web element with id: 'Object Repository/Validate_Name' located by 'By.xpath: /html/body/div[@class='container']/div[@class='container-fluid']/div[@class='panel']/form/div[@class='panel-body']/div[@class='form-group'][1]/span[@class='field-validation-error']' is not present after '30' second(s)
+
+2018-05-15 01:27:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-15 01:27:08 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Validate_Name' located by 'By.xpath: /html/body/div[@class='container']/div[@class='container-fluid']/div[@class='panel']/form/div[@class='panel-body']/div[@class='form-group'][1]/span[@class='field-validation-error']' is not present after '30' second(s)
+
+2018-05-15 01:27:08 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Validate_Des' are matched.
+
+2018-05-15 01:27:09 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Validate_Des' are matched.
+
+2018-05-15 01:27:09 - [TEST_STEP][PASSED] - verifyElementNotPresent: Web element with id: 'Object Repository/Validate_Section' located by 'By.xpath: /html/body/div[@class='container']/div[@class='container-fluid']/div[@class='panel']/form/div[@class='panel-body']/div[@class='form-group'][3]/span[@class='field-validation-error']' is not present after '30' second(s)
+
+2018-05-15 01:27:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-15 01:27:09 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Validate_Section' located by 'By.xpath: /html/body/div[@class='container']/div[@class='container-fluid']/div[@class='panel']/form/div[@class='panel-body']/div[@class='form-group'][3]/span[@class='field-validation-error']' is not present after '30' second(s)
+
+2018-05-15 01:27:09 - [TEST_STEP][PASSED] - verifyElementNotPresent: Web element with id: 'Object Repository/Validate_Credit' located by 'By.xpath: /html/body/div[@class='container']/div[@class='container-fluid']/div[@class='panel']/form/div[@class='panel-body']/div[@class='form-group'][4]/span[@class='field-validation-error']' is not present after '30' second(s)
+
+2018-05-15 01:27:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-15 01:27:09 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Validate_Credit' located by 'By.xpath: /html/body/div[@class='container']/div[@class='container-fluid']/div[@class='panel']/form/div[@class='panel-body']/div[@class='form-group'][4]/span[@class='field-validation-error']' is not present after '30' second(s)
+
+2018-05-15 01:27:09 - [TEST_STEP][PASSED] - verifyElementNotPresent: Web element with id: 'Object Repository/Validate_Time' located by 'By.xpath: /html/body/div[@class='container']/div[@class='container-fluid']/div[@class='panel']/form/div[@class='panel-body']/div[@class='form-group'][5]/span[@class='field-validation-error']' is not present after '30' second(s)
+
+2018-05-15 01:27:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-15 01:27:09 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Validate_Time' located by 'By.xpath: /html/body/div[@class='container']/div[@class='container-fluid']/div[@class='panel']/form/div[@class='panel-body']/div[@class='form-group'][5]/span[@class='field-validation-error']' is not present after '30' second(s)
+
+2018-05-15 01:27:09 - [TEST_STEP][PASSED] - verifyElementNotPresent: Web element with id: 'Object Repository/Validate_Day' located by 'By.xpath: /html/body/div[@class='container']/div[@class='container-fluid']/div[@class='panel']/form/div[@class='panel-body']/div[@class='form-group'][6]/span[@class='field-validation-error']' is not present after '30' second(s)
+
+2018-05-15 01:27:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-15 01:27:09 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Validate_Day' located by 'By.xpath: /html/body/div[@class='container']/div[@class='container-fluid']/div[@class='panel']/form/div[@class='panel-body']/div[@class='form-group'][6]/span[@class='field-validation-error']' is not present after '30' second(s)
+
+2018-05-15 01:27:09 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-15 01:27:11 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-15 01:26:01 - [TEST_SUITE][PASSED] - Form_Validation_Tests: Test Cases/Form_Validaton_Tests/Validation_EditBlankForm_WithoutDes_Test]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

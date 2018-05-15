@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Only_Password</name>
+   <tag></tag>
+   <elementGuidId>352ec08b-ffe1-4871-a5be-8268a0540afa</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html/body/div[@class='container']/div[@class='container-fluid']/div[@class='panel']/div[@class='panel-body']/form/div[@class='validation-summary-errors']/ul/li</value>
+   </webElementProperties>
+</WebElementEntity>

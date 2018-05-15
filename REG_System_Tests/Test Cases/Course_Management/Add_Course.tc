@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Add_Course</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fc739f5b-bd8a-4f31-877a-6827a46a4790</testCaseGuid>
+   <variable>
+      <defaultValue>'Test1'</defaultValue>
+      <description></description>
+      <id>bd7d7dde-0af9-4139-ae88-ce9924547d79</id>
+      <masked>false</masked>
+      <name>courseName</name>
+   </variable>
+   <variable>
+      <defaultValue>' has been saved'</defaultValue>
+      <description></description>
+      <id>ce6292e2-17d6-4073-aa99-595de6f6a0e4</id>
+      <masked>false</masked>
+      <name>successMessage</name>
+   </variable>
+</TestCaseEntity>

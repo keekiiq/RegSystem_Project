@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Username_Required</name>
+   <tag></tag>
+   <elementGuidId>f26206b2-503c-46ea-b9da-a9e2971d4c93</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html/body/div[@class='container']/div[@class='container-fluid']/div[@class='panel']/div[@class='panel-body']/form/div[@class='validation-summary-errors']/ul/li[1]</value>
+   </webElementProperties>
+</WebElementEntity>

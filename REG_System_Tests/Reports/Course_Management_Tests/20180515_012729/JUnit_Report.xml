@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Course_Management_Tests" time="51" tests="3" failures="0" errors="0">
+   <testsuite name="Course_Management_Tests" tests="3" failures="0" errors="0" time="51" timestamp="2018-05-15 01:27:33" hostname="tungas - 10.211.55.4" id="Test Suites/Course_Management_Tests">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\tungas\\Katalon Studio\\REG_System_Tests\\Reports\\Course_Management_Tests\\20180515_012729"/>
+         <property name="logFiles" value="C:\\Users\\tungas\\Katalon Studio\\REG_System_Tests\\Reports\\Course_Management_Tests\\20180515_012729\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="tungas - 10.211.55.4"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="Chrome 66.0.3359.139"/>
+         <property name="hostAddress" value="10.211.55.4"/>
+         <property name="sessionId" value="22906412e9e734ef6040ad89b783bd4f"/>
+         <property name="seleniumVersion" value="unknown"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Course_Management/Add_Course" classname="Test Cases/Course_Management/Add_Course" status="PASSED">
+         <system-out><![CDATA[2018-05-15 01:27:33 - [TEST_CASE][PASSED] - Test Cases/Course_Management/Add_Course: Test Cases/Course_Management/Add_Course
+
+2018-05-15 01:27:34 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-15 01:27:39 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-15 01:27:39 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:60564/Account/Login?ReturnUrl=%2fAdmin%2fIndex' successfully
+
+2018-05-15 01:27:40 - [MESSAGE][PASSED] - Navigate to 'http://localhost:60564/Account/Login?ReturnUrl=%2fAdmin%2fIndex' successfully
+
+2018-05-15 01:27:40 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Page_ (1)/input_UserName'
+
+2018-05-15 01:27:41 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_ (1)/input_UserName'
+
+2018-05-15 01:27:41 - [TEST_STEP][PASSED] - setText: Text 'secret' is set on object 'Object Repository/Page_ (1)/input_Password'
+
+2018-05-15 01:27:42 - [MESSAGE][PASSED] - Text 'secret' is set on object 'Object Repository/Page_ (1)/input_Password'
+
+2018-05-15 01:27:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ (1)/input_btn btn-primary' is clicked on
+
+2018-05-15 01:27:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ (1)/input_btn btn-primary' is clicked on
+
+2018-05-15 01:27:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ (1)/a_Add a new course' is clicked on
+
+2018-05-15 01:27:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ (1)/a_Add a new course' is clicked on
+
+2018-05-15 01:27:45 - [TEST_STEP][PASSED] - setText: Text 'Test1' is set on object 'Object Repository/Page_ (1)/input_Name'
+
+2018-05-15 01:27:45 - [MESSAGE][PASSED] - Text 'Test1' is set on object 'Object Repository/Page_ (1)/input_Name'
+
+2018-05-15 01:27:45 - [TEST_STEP][PASSED] - setText: Text 'Test1' is set on object 'Object Repository/Page_ (1)/textarea_Description'
+
+2018-05-15 01:27:46 - [MESSAGE][PASSED] - Text 'Test1' is set on object 'Object Repository/Page_ (1)/textarea_Description'
+
+2018-05-15 01:27:46 - [TEST_STEP][PASSED] - setText: Text '701' is set on object 'Object Repository/Page_ (1)/input_Section'
+
+2018-05-15 01:27:47 - [MESSAGE][PASSED] - Text '701' is set on object 'Object Repository/Page_ (1)/input_Section'
+
+2018-05-15 01:27:47 - [TEST_STEP][PASSED] - setText: Text '3' is set on object 'Object Repository/Page_ (1)/input_Credit'
+
+2018-05-15 01:27:48 - [MESSAGE][PASSED] - Text '3' is set on object 'Object Repository/Page_ (1)/input_Credit'
+
+2018-05-15 01:27:48 - [TEST_STEP][PASSED] - setText: Text '12.00' is set on object 'Object Repository/Page_ (1)/input_Time'
+
+2018-05-15 01:27:49 - [MESSAGE][PASSED] - Text '12.00' is set on object 'Object Repository/Page_ (1)/input_Time'
+
+2018-05-15 01:27:49 - [TEST_STEP][PASSED] - setText: Text 'Tue' is set on object 'Object Repository/Page_ (1)/input_Day'
+
+2018-05-15 01:27:49 - [MESSAGE][PASSED] - Text 'Tue' is set on object 'Object Repository/Page_ (1)/input_Day'
+
+2018-05-15 01:27:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ (1)/input_btn btn-primary' is clicked on
+
+2018-05-15 01:27:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ (1)/input_btn btn-primary' is clicked on
+
+2018-05-15 01:27:51 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Add_Success_Message' is present
+
+2018-05-15 01:27:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-15 01:27:51 - [MESSAGE][PASSED] - Object 'Object Repository/Add_Success_Message' is present
+
+2018-05-15 01:27:51 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Add_Success_Message' are matched.
+
+2018-05-15 01:27:51 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Add_Success_Message' are matched.
+
+2018-05-15 01:27:51 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/All_Course_Text' is present
+
+2018-05-15 01:27:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-15 01:27:51 - [MESSAGE][PASSED] - Object 'Object Repository/All_Course_Text' is present
+
+2018-05-15 01:27:51 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Add_New_Course_Button' is present
+
+2018-05-15 01:27:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-15 01:27:51 - [MESSAGE][PASSED] - Object 'Object Repository/Add_New_Course_Button' is present
+
+2018-05-15 01:27:51 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/All_Course_Text' are matched.
+
+2018-05-15 01:27:51 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/All_Course_Text' are matched.
+
+2018-05-15 01:27:51 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Add_New_Course_Button' are matched.
+
+2018-05-15 01:27:51 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Add_New_Course_Button' are matched.
+
+2018-05-15 01:27:51 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-15 01:27:54 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Course_Management/Delete_Course" classname="Test Cases/Course_Management/Delete_Course" status="PASSED">
+         <system-out><![CDATA[2018-05-15 01:27:54 - [TEST_CASE][PASSED] - Test Cases/Course_Management/Delete_Course: Test Cases/Course_Management/Delete_Course
+
+2018-05-15 01:27:54 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-15 01:27:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-15 01:27:57 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:60564/Account/Login?ReturnUrl=%2fAdmin%2fIndex' successfully
+
+2018-05-15 01:27:58 - [MESSAGE][PASSED] - Navigate to 'http://localhost:60564/Account/Login?ReturnUrl=%2fAdmin%2fIndex' successfully
+
+2018-05-15 01:27:58 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Page_ (5)/input_UserName'
+
+2018-05-15 01:27:59 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_ (5)/input_UserName'
+
+2018-05-15 01:27:59 - [TEST_STEP][PASSED] - setText: Text 'secret' is set on object 'Object Repository/Page_ (5)/input_Password'
+
+2018-05-15 01:28:00 - [MESSAGE][PASSED] - Text 'secret' is set on object 'Object Repository/Page_ (5)/input_Password'
+
+2018-05-15 01:28:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ (5)/input_btn btn-primary' is clicked on
+
+2018-05-15 01:28:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ (5)/input_btn btn-primary' is clicked on
+
+2018-05-15 01:28:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ (5)/input_btn btn-primary' is clicked on
+
+2018-05-15 01:28:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ (5)/input_btn btn-primary' is clicked on
+
+2018-05-15 01:28:01 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Add_Success_Message' is present
+
+2018-05-15 01:28:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-15 01:28:02 - [MESSAGE][PASSED] - Object 'Object Repository/Add_Success_Message' is present
+
+2018-05-15 01:28:02 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/All_Course_Text' is present
+
+2018-05-15 01:28:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-15 01:28:02 - [MESSAGE][PASSED] - Object 'Object Repository/All_Course_Text' is present
+
+2018-05-15 01:28:02 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Add_New_Course_Button' is present
+
+2018-05-15 01:28:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-15 01:28:02 - [MESSAGE][PASSED] - Object 'Object Repository/Add_New_Course_Button' is present
+
+2018-05-15 01:28:02 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/All_Course_Text' are matched.
+
+2018-05-15 01:28:02 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/All_Course_Text' are matched.
+
+2018-05-15 01:28:02 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Add_New_Course_Button' are matched.
+
+2018-05-15 01:28:02 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Add_New_Course_Button' are matched.
+
+2018-05-15 01:28:02 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'was deleted' is present on page 
+
+2018-05-15 01:28:02 - [MESSAGE][PASSED] - Text 'was deleted' is present on page 
+
+2018-05-15 01:28:02 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-15 01:28:05 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Course_Management/Edit_Course" classname="Test Cases/Course_Management/Edit_Course" status="PASSED">
+         <system-out><![CDATA[2018-05-15 01:28:05 - [TEST_CASE][PASSED] - Test Cases/Course_Management/Edit_Course: Test Cases/Course_Management/Edit_Course
+
+2018-05-15 01:28:06 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-15 01:28:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-15 01:28:09 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:60564/Account/Login?ReturnUrl=%2fAdmin%2fIndex' successfully
+
+2018-05-15 01:28:10 - [MESSAGE][PASSED] - Navigate to 'http://localhost:60564/Account/Login?ReturnUrl=%2fAdmin%2fIndex' successfully
+
+2018-05-15 01:28:10 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Page_ (3)/input_UserName'
+
+2018-05-15 01:28:11 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_ (3)/input_UserName'
+
+2018-05-15 01:28:11 - [TEST_STEP][PASSED] - setText: Text 'secret' is set on object 'Object Repository/Page_ (3)/input_Password'
+
+2018-05-15 01:28:12 - [MESSAGE][PASSED] - Text 'secret' is set on object 'Object Repository/Page_ (3)/input_Password'
+
+2018-05-15 01:28:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ (3)/input_btn btn-primary' is clicked on
+
+2018-05-15 01:28:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ (3)/input_btn btn-primary' is clicked on
+
+2018-05-15 01:28:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Edit' is clicked on
+
+2018-05-15 01:28:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit' is clicked on
+
+2018-05-15 01:28:13 - [TEST_STEP][PASSED] - setText: Text 'Intro SE' is set on object 'Object Repository/Page_ (2)/input_Name'
+
+2018-05-15 01:28:14 - [MESSAGE][PASSED] - Text 'Intro SE' is set on object 'Object Repository/Page_ (2)/input_Name'
+
+2018-05-15 01:28:14 - [TEST_STEP][PASSED] - setText: Text 'Test' is set on object 'Object Repository/Page_ (1)/textarea_Description'
+
+2018-05-15 01:28:15 - [MESSAGE][PASSED] - Text 'Test' is set on object 'Object Repository/Page_ (1)/textarea_Description'
+
+2018-05-15 01:28:15 - [TEST_STEP][PASSED] - setText: Text '701' is set on object 'Object Repository/Page_ (4)/input_Section'
+
+2018-05-15 01:28:15 - [MESSAGE][PASSED] - Text '701' is set on object 'Object Repository/Page_ (4)/input_Section'
+
+2018-05-15 01:28:15 - [TEST_STEP][PASSED] - setText: Text '3' is set on object 'Object Repository/Page_ (4)/input_Credit'
+
+2018-05-15 01:28:16 - [MESSAGE][PASSED] - Text '3' is set on object 'Object Repository/Page_ (4)/input_Credit'
+
+2018-05-15 01:28:16 - [TEST_STEP][PASSED] - setText: Text '12.00' is set on object 'Object Repository/Page_ (4)/input_Time'
+
+2018-05-15 01:28:17 - [MESSAGE][PASSED] - Text '12.00' is set on object 'Object Repository/Page_ (4)/input_Time'
+
+2018-05-15 01:28:17 - [TEST_STEP][PASSED] - setText: Text 'Tue' is set on object 'Object Repository/Page_ (4)/input_Day'
+
+2018-05-15 01:28:19 - [MESSAGE][PASSED] - Text 'Tue' is set on object 'Object Repository/Page_ (4)/input_Day'
+
+2018-05-15 01:28:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ (2)/input_btn btn-primary' is clicked on
+
+2018-05-15 01:28:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ (2)/input_btn btn-primary' is clicked on
+
+2018-05-15 01:28:20 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Add_Success_Message' is present
+
+2018-05-15 01:28:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-15 01:28:20 - [MESSAGE][PASSED] - Object 'Object Repository/Add_Success_Message' is present
+
+2018-05-15 01:28:20 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Add_Success_Message' are matched.
+
+2018-05-15 01:28:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Add_Success_Message' are matched.
+
+2018-05-15 01:28:20 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/All_Course_Text' is present
+
+2018-05-15 01:28:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-15 01:28:20 - [MESSAGE][PASSED] - Object 'Object Repository/All_Course_Text' is present
+
+2018-05-15 01:28:20 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Add_New_Course_Button' is present
+
+2018-05-15 01:28:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-15 01:28:21 - [MESSAGE][PASSED] - Object 'Object Repository/Add_New_Course_Button' is present
+
+2018-05-15 01:28:21 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/All_Course_Text' are matched.
+
+2018-05-15 01:28:21 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/All_Course_Text' are matched.
+
+2018-05-15 01:28:21 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Add_New_Course_Button' are matched.
+
+2018-05-15 01:28:21 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Add_New_Course_Button' are matched.
+
+2018-05-15 01:28:21 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-15 01:28:24 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-15 01:27:33 - [TEST_SUITE][PASSED] - Course_Management_Tests: Test Cases/Course_Management/Edit_Course]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Delete_Course</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>eb667160-1cea-45f5-86f9-0b4962280255</testCaseGuid>
+   <variable>
+      <defaultValue>' was deleted'</defaultValue>
+      <description></description>
+      <id>cf016c66-e886-4d84-845a-d2c4c0e671cc</id>
+      <masked>false</masked>
+      <name>successMessage</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login_Tests" time="44" tests="5" failures="0" errors="0">
+   <testsuite name="Login_Tests" tests="5" failures="0" errors="0" time="44" timestamp="2018-05-15 01:28:50" hostname="tungas - 10.211.55.4" id="Test Suites/Login_Tests">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\tungas\\Katalon Studio\\REG_System_Tests\\Reports\\Login_Tests\\20180515_012845"/>
+         <property name="logFiles" value="C:\\Users\\tungas\\Katalon Studio\\REG_System_Tests\\Reports\\Login_Tests\\20180515_012845\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="tungas - 10.211.55.4"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="Chrome 66.0.3359.139"/>
+         <property name="hostAddress" value="10.211.55.4"/>
+         <property name="sessionId" value="f3206c7e6787e64317707ee6d6cf8838"/>
+         <property name="seleniumVersion" value="unknown"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login_Tests/Login_BlankUsername_Field_Test" classname="Test Cases/Login_Tests/Login_BlankUsername_Field_Test" status="PASSED">
+         <system-out><![CDATA[2018-05-15 01:28:51 - [TEST_CASE][PASSED] - Test Cases/Login_Tests/Login_BlankUsername_Field_Test: Test Cases/Login_Tests/Login_BlankUsername_Field_Test
+
+2018-05-15 01:28:51 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-15 01:28:56 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-15 01:28:56 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:60564/Account/Login?ReturnUrl=%2fAdmin%2fIndex' successfully
+
+2018-05-15 01:28:57 - [MESSAGE][PASSED] - Navigate to 'http://localhost:60564/Account/Login?ReturnUrl=%2fAdmin%2fIndex' successfully
+
+2018-05-15 01:28:57 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Page_/input_UserName'
+
+2018-05-15 01:28:58 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_/input_UserName'
+
+2018-05-15 01:28:58 - [TEST_STEP][PASSED] - setText: Text '1234' is set on object 'Object Repository/Page_/input_Password'
+
+2018-05-15 01:28:58 - [MESSAGE][PASSED] - Text '1234' is set on object 'Object Repository/Page_/input_Password'
+
+2018-05-15 01:28:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_/input_btn btn-primary' is clicked on
+
+2018-05-15 01:28:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/input_btn btn-primary' is clicked on
+
+2018-05-15 01:28:59 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Only_Password' is present
+
+2018-05-15 01:28:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-15 01:29:00 - [MESSAGE][PASSED] - Object 'Object Repository/Only_Password' is present
+
+2018-05-15 01:29:00 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Only_Password' are matched.
+
+2018-05-15 01:29:00 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Only_Password' are matched.
+
+2018-05-15 01:29:00 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-15 01:29:02 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login_Tests/Login_BlankPassword_Field_Test" classname="Test Cases/Login_Tests/Login_BlankPassword_Field_Test" status="PASSED">
+         <system-out><![CDATA[2018-05-15 01:29:02 - [TEST_CASE][PASSED] - Test Cases/Login_Tests/Login_BlankPassword_Field_Test: Test Cases/Login_Tests/Login_BlankPassword_Field_Test
+
+2018-05-15 01:29:03 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-15 01:29:05 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-15 01:29:05 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:60564/Account/Login?ReturnUrl=%2fAdmin%2fIndex' successfully
+
+2018-05-15 01:29:06 - [MESSAGE][PASSED] - Navigate to 'http://localhost:60564/Account/Login?ReturnUrl=%2fAdmin%2fIndex' successfully
+
+2018-05-15 01:29:06 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Page_/input_UserName'
+
+2018-05-15 01:29:07 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_/input_UserName'
+
+2018-05-15 01:29:07 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Page_/input_Password'
+
+2018-05-15 01:29:07 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_/input_Password'
+
+2018-05-15 01:29:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_/input_btn btn-primary' is clicked on
+
+2018-05-15 01:29:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/input_btn btn-primary' is clicked on
+
+2018-05-15 01:29:08 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Only_Username' is present
+
+2018-05-15 01:29:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-15 01:29:08 - [MESSAGE][PASSED] - Object 'Object Repository/Only_Username' is present
+
+2018-05-15 01:29:08 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Only_Username' are matched.
+
+2018-05-15 01:29:08 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Only_Username' are matched.
+
+2018-05-15 01:29:08 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-15 01:29:10 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login_Tests/Login_Blank_Field_Test" classname="Test Cases/Login_Tests/Login_Blank_Field_Test" status="PASSED">
+         <system-out><![CDATA[2018-05-15 01:29:10 - [TEST_CASE][PASSED] - Test Cases/Login_Tests/Login_Blank_Field_Test: Test Cases/Login_Tests/Login_Blank_Field_Test
+
+2018-05-15 01:29:11 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-15 01:29:14 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-15 01:29:14 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:60564/Account/Login?ReturnUrl=%2fAdmin%2fIndex' successfully
+
+2018-05-15 01:29:14 - [MESSAGE][PASSED] - Navigate to 'http://localhost:60564/Account/Login?ReturnUrl=%2fAdmin%2fIndex' successfully
+
+2018-05-15 01:29:14 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Page_/input_UserName'
+
+2018-05-15 01:29:15 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_/input_UserName'
+
+2018-05-15 01:29:15 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Page_/input_Password'
+
+2018-05-15 01:29:15 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_/input_Password'
+
+2018-05-15 01:29:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_/input_btn btn-primary' is clicked on
+
+2018-05-15 01:29:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/input_btn btn-primary' is clicked on
+
+2018-05-15 01:29:16 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Username_Required' is present
+
+2018-05-15 01:29:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-15 01:29:16 - [MESSAGE][PASSED] - Object 'Object Repository/Username_Required' is present
+
+2018-05-15 01:29:16 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Password_Required' is present
+
+2018-05-15 01:29:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-15 01:29:16 - [MESSAGE][PASSED] - Object 'Object Repository/Password_Required' is present
+
+2018-05-15 01:29:16 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Username_Required' are matched.
+
+2018-05-15 01:29:17 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Username_Required' are matched.
+
+2018-05-15 01:29:17 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Password_Required' are matched.
+
+2018-05-15 01:29:17 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Password_Required' are matched.
+
+2018-05-15 01:29:17 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-15 01:29:18 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login_Tests/Login_Incorrect_Password_Test" classname="Test Cases/Login_Tests/Login_Incorrect_Password_Test" status="PASSED">
+         <system-out><![CDATA[2018-05-15 01:29:18 - [TEST_CASE][PASSED] - Test Cases/Login_Tests/Login_Incorrect_Password_Test: Test Cases/Login_Tests/Login_Incorrect_Password_Test
+
+2018-05-15 01:29:19 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-15 01:29:22 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-15 01:29:22 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:60564/Account/Login?ReturnUrl=%2fAdmin%2fIndex' successfully
+
+2018-05-15 01:29:23 - [MESSAGE][PASSED] - Navigate to 'http://localhost:60564/Account/Login?ReturnUrl=%2fAdmin%2fIndex' successfully
+
+2018-05-15 01:29:23 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Page_/input_UserName'
+
+2018-05-15 01:29:23 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_/input_UserName'
+
+2018-05-15 01:29:23 - [TEST_STEP][PASSED] - setText: Text '1234' is set on object 'Object Repository/Page_/input_Password'
+
+2018-05-15 01:29:24 - [MESSAGE][PASSED] - Text '1234' is set on object 'Object Repository/Page_/input_Password'
+
+2018-05-15 01:29:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_/input_btn btn-primary' is clicked on
+
+2018-05-15 01:29:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/input_btn btn-primary' is clicked on
+
+2018-05-15 01:29:24 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Incorrect_password' is present
+
+2018-05-15 01:29:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-15 01:29:25 - [MESSAGE][PASSED] - Object 'Object Repository/Incorrect_password' is present
+
+2018-05-15 01:29:25 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Incorrect_password' are matched.
+
+2018-05-15 01:29:25 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Incorrect_password' are matched.
+
+2018-05-15 01:29:25 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-15 01:29:26 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login_Tests/Login_Success" classname="Test Cases/Login_Tests/Login_Success" status="PASSED">
+         <system-out><![CDATA[2018-05-15 01:29:26 - [TEST_CASE][PASSED] - Test Cases/Login_Tests/Login_Success: Test Cases/Login_Tests/Login_Success
+
+2018-05-15 01:29:27 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-15 01:29:29 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-15 01:29:29 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:60564/Account/Login?ReturnUrl=%2fAdmin%2fIndex' successfully
+
+2018-05-15 01:29:30 - [MESSAGE][PASSED] - Navigate to 'http://localhost:60564/Account/Login?ReturnUrl=%2fAdmin%2fIndex' successfully
+
+2018-05-15 01:29:30 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Page_/input_UserName'
+
+2018-05-15 01:29:31 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_/input_UserName'
+
+2018-05-15 01:29:31 - [TEST_STEP][PASSED] - setText: Text 'secret' is set on object 'Object Repository/Page_/input_Password'
+
+2018-05-15 01:29:31 - [MESSAGE][PASSED] - Text 'secret' is set on object 'Object Repository/Page_/input_Password'
+
+2018-05-15 01:29:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_/input_btn btn-primary' is clicked on
+
+2018-05-15 01:29:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/input_btn btn-primary' is clicked on
+
+2018-05-15 01:29:32 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/All_Course_Text' is present
+
+2018-05-15 01:29:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-15 01:29:32 - [MESSAGE][PASSED] - Object 'Object Repository/All_Course_Text' is present
+
+2018-05-15 01:29:32 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Add_New_Course_Button' is present
+
+2018-05-15 01:29:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-15 01:29:32 - [MESSAGE][PASSED] - Object 'Object Repository/Add_New_Course_Button' is present
+
+2018-05-15 01:29:32 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/All_Course_Text' are matched.
+
+2018-05-15 01:29:32 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/All_Course_Text' are matched.
+
+2018-05-15 01:29:32 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Add_New_Course_Button' are matched.
+
+2018-05-15 01:29:33 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Add_New_Course_Button' are matched.
+
+2018-05-15 01:29:33 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-15 01:29:34 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-15 01:28:50 - [TEST_SUITE][PASSED] - Login_Tests: Test Cases/Login_Tests/Login_Success]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
